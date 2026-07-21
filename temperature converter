@@ -3,7 +3,7 @@ unit = input("(F)ahrenheit or (C)elsius").upper()
 if unit == "F":
    converted = (Temperature - 32)/1.8
    print( converted, "°C")
-elif unit == "C"
+elif unit == "C":
     converted = (Temperature * 1.8) + 32
     print(converted, "°F")
 else: 

@@ -36,6 +36,8 @@ A simple calculator program written in Python.
 - Division (/)
 - Takes user input for two numbers
 - Allows the user to choose an operation
+- Runs continuously until the user types `exit`
+- Prevents division by zero
 
 ### Concepts Practiced
 - Variables
@@ -44,6 +46,9 @@ A simple calculator program written in Python.
 - `if`, `elif`, and `else`
 - Arithmetic operators
 - `print()`
+- 'while loop'
+- `break`
+- Nested `if` statements
 
 ### Example
 

@@ -57,6 +57,7 @@ First number: 10
 Second number: 5
 Enter + or - or * or /: *
 50.0
+```
 
 
 # Temperature Converter Utility

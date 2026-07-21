@@ -24,4 +24,32 @@ A simple and interactive command-line Python application that converts weight me
 3. Run the script using:
    ```bash
    python weight.py
+
+## Basic Calculator 🧮
+
+A simple calculator program written in Python.
+
+### Features
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Takes user input for two numbers
+- Allows the user to choose an operation
+
+### Concepts Practiced
+- Variables
+- `input()`
+- `float()`
+- `if`, `elif`, and `else`
+- Arithmetic operators
+- `print()`
+
+### Example
+
+```text
+First number: 10
+Second number: 5
+Enter + or - or * or /: *
+50.0
    ```

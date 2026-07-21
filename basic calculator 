@@ -1,0 +1,14 @@
+Number1 = float(input("First number: "))
+Number2 = float(input("Second number: "))
+operation = input("Enter + or - or * or /: ")
+if operation == "+":
+     print( Number1 + Number2)
+elif operation == "-":
+     print(Number1 - Number2)
+elif operation == "*":
+    print(Number1 * Number 2)
+elif operation == "/":
+    print(Number1 / Number2)
+else:
+    print("Error")
+print("Press enter to exit...")

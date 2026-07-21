@@ -58,16 +58,16 @@ Second number: 5
 Enter + or - or * or /: *
 50.0
 
-# Temperature Converter
+## Temperature Converter
 
 A lightweight Python command-line utility that quickly converts temperatures between Fahrenheit and Celsius. 
 
-## 🚀 Features
+### 🚀 Features
 * **Dual-Way Conversion:** Seamlessly converts Fahrenheit to Celsius and Celsius to Fahrenheit.
 * **Input Case Insensitivity:** Accepts both lowercase and uppercase inputs (`f`, `F`, `c`, `C`) without breaking.
 * **Input Validation:** Identifies and handles incorrect unit entries gracefully by alerting the user.
 
-## 🧠 Topics Learned
+### 🧠 Topics Learned
 Building this project helped reinforce foundational Python and software development programming concepts:
 * **Data Type Casting:** Converting string inputs into numbers using `float()`.
 * **String Methods:** Using `.upper()` to normalize text inputs for easy comparison.
@@ -75,7 +75,7 @@ Building this project helped reinforce foundational Python and software developm
 * **Basic Mathematics in Code:** Translating real-world temperature formulas into Python operators (`*`, `/`, `+`, `-`).
 * **Git Version Control:** Writing clean code, fixing syntax bugs, and committing changes directly to a GitHub repository.
 
-## 💻 How to Run
+### 💻 How to Run
 
 ### Prerequisites
 Make sure you have [Python 3](https://python.org) installed on your machine.

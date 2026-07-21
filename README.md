@@ -58,6 +58,7 @@ Second number: 5
 Enter + or - or * or /: *
 50.0
 
+
 # Temperature Converter Utility
 
 A simple and interactive command-line Python application that converts temperature measurements seamlessly between Fahrenheit (F) and Celsius (C).
@@ -91,6 +92,8 @@ Option 2: On Your Local Machine
 3. Open your terminal or command prompt, navigate to the project directory, and run:
    ```bash
    python "temperature converter.py"
+
+
    ```
 
 

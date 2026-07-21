@@ -1,14 +1,18 @@
-Number1 = float(input("First number: "))
-Number2 = float(input("Second number: "))
-operation = input("Enter + or - or * or /: ")
-if operation == "+":
+while True:
+   Number1 = float(input("First number: "))
+   Number2 = float(input("Second number: "))
+   operation = input("Enter + or - or * or / or type exit:  ")
+if operation == "exit":
+     print("Goodbye!")
+     break
+elif operation == "+":
      print( Number1 + Number2)
 elif operation == "-":
      print(Number1 - Number2)
 elif operation == "*":
-    print(Number1 * Number 2)
+    print(Number1 * Number2)
 elif operation == "/":
     print(Number1 / Number2)
 else:
-    print("Error")
-print("Press enter to exit...")
+    print("Error: Invalid operation")
+

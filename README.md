@@ -96,6 +96,37 @@ Option 2: On Your Local Machine
 
 
    ```
+# My Family - Python OOP
+
+A simple Python project created while learning Object-Oriented Programming (OOP).
+
+## What I Learned
+
+- Creating a class
+- Using the `__init__()` constructor
+- Creating objects
+- Using instance attributes
+- Creating and calling methods
+
+## Description
+
+The `My_Family` class stores information about family members, including:
+
+- Name
+- Relation
+- Age
+- Occupation
+
+The program creates multiple family member objects and displays their information.
+
+## Concepts Used
+
+- Python
+- Classes
+- Objects
+- Constructors
+- Instance attributes
+- Methods
 
 
 

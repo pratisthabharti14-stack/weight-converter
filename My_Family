@@ -1,0 +1,25 @@
+class My_Family:
+     def __init__(self, name, relation,age, occupation):
+           self.name = name
+           self.relation = relation 
+           self.age = age 
+    def  say_Namaste(self):
+          print('Namaste')
+myfamily1 = My_Family("Shakuntala", "Mother", " 45", "homemaker")
+print(myfamily1.name)
+print(myfamily1.relation)
+print(myfamily1.age)
+print(myfamily1.occupation)
+myfamily1.say_Namaste()
+myfamily2 = My_Family("Ajay Kumar Bharti", "Father","55", "Governance employee")
+print(myfamily2.name)
+print(myfamily2.relation)
+print(myfamily2.age)
+print(myfamily2.occupation)
+myfamily2.say_Namaste()
+myfamily3 = My_Family("Abhinandan","Elder brother","23","Merchant Navy")
+print(myfamily3.name)
+print(myfamily3.relation)
+print(myfamily3.age)
+print(myfamily3.occupation)
+myfamily3.say_Namaste()

@@ -3,6 +3,7 @@ class My_Family:
            self.name = name
            self.relation = relation 
            self.age = age 
+           self occupation = occupation 
     def  say_Namaste(self):
           print('Namaste')
 myfamily1 = My_Family("Shakuntala", "Mother", " 45", "homemaker")

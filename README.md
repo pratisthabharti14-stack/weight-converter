@@ -127,6 +127,46 @@ The program creates multiple family member objects and displays their informatio
 - Constructors
 - Instance attributes
 - Methods
+```
+# Customer Count
+
+A simple Python program that demonstrates the basics of **Object-Oriented Programming (OOP)** using a `Customer` class.
+
+## Features
+
+- Creates customer objects using a class.
+- Stores customer information:
+  - Customer name
+  - Order
+  - Token number
+- Displays customer details using a method.
+- Automatically counts the total number of customers using a class variable.
+
+## Concepts Practiced
+
+- Classes and Objects
+- `__init__()` Constructor
+- Instance Attributes
+- Instance Methods
+- Class Variables
+- `self`
+- Formatted Strings (f-strings)
+
+## Example
+
+The program creates three customers:
+
+- Max → Bulgogi → Token 14
+- Bruce → Bibimbap → Token 15
+- Mary → Kalguksu → Token 16
+
+### Output
+
+```text
+Customer_Name: Max, Order: Bulgogi, Token_Number: 14
+Customer_Name: Bruce, Order: Bibimbap, Token_Number: 15
+Customer_Name: Mary, Order: Kalguksu, Token_Number: 16
+Total Customers: 3
 
 
 

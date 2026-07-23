@@ -127,7 +127,7 @@ The program creates multiple family member objects and displays their informatio
 - Constructors
 - Instance attributes
 - Methods
-```
+  ```
 # Customer Count
 
 A simple Python program that demonstrates the basics of **Object-Oriented Programming (OOP)** using a `Customer` class.

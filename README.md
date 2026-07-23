@@ -167,6 +167,53 @@ Customer_Name: Max, Order: Bulgogi, Token_Number: 14
 Customer_Name: Bruce, Order: Bibimbap, Token_Number: 15
 Customer_Name: Mary, Order: Kalguksu, Token_Number: 16
 Total Customers: 3
+  ```
+# Bank Account
+
+A simple Python program that demonstrates Object-Oriented Programming (OOP) concepts by creating a basic `BankAccount` class.
+
+## Features
+
+- Creates a bank account with an owner and initial balance.
+- Allows money to be deposited into the account.
+- Validates deposit amounts to ensure they are positive.
+- Logs transactions using a private method.
+- Uses name mangling for private members.
+- Validates interest rates using a static method.
+- Defines a minimum balance as a class variable.
+
+## Concepts Practiced
+
+- Classes and Objects
+- `__init__()` Constructor
+- Instance Attributes
+- Class Variables
+- Instance Methods
+- Private Attributes
+- Name Mangling
+- Private Methods
+- `@staticmethod`
+- Encapsulation
+- Data Validation
+- f-strings
+
+## Example
+
+The program creates a bank account for Alice with an initial balance of `$550`.
+
+It then:
+
+1. Deposits `$200`.
+2. Logs a transaction.
+3. Checks whether an interest rate of `4%` is valid.
+
+### Example Output
+
+```text
+Logging deposit of $200. New balance: 750
+Alice's new balance: $750
+Logging withdraw of $200. New balance: 750
+True
 
 
 

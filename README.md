@@ -214,6 +214,71 @@ Logging deposit of $200. New balance: 750
 Alice's new balance: $750
 Logging withdraw of $200. New balance: 750
 True
+ ```
+# BMI Calculator
 
+This is a simple **BMI (Body Mass Index) Calculator** built using Python. The program allows users to enter their height and weight using different units and calculates their BMI.
+
+## Features
+
+- Accepts height in:
+  - Metres (M)
+  - Feet (F)
+- Accepts weight in:
+  - Kilograms (K)
+  - Pounds (L)
+- Supports different combinations of height and weight units.
+- Automatically converts units while calculating BMI.
+- Displays the calculated BMI.
+- Categorizes BMI as:
+  - Underweight
+  - Healthy weight
+  - Overweight
+  - Obesity
+- Uses conditional statements and user input handling.
+
+## How It Works
+
+The user enters:
+
+1. Their height
+2. The unit of their height (`M` for Metres or `F` for Feet)
+3. Their weight
+4. The unit of their weight (`K` for Kilograms or `L` for Pounds)
+
+The program then calculates the BMI based on the selected units.
+
+### BMI Categories
+
+| BMI Range | Category |
+|-----------|----------|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Healthy weight |
+| 25 – 29.9 | Overweight |
+| 30 and above | Obesity |
+
+## Concepts Used
+
+This project helped me practice:
+
+- `input()` function
+- `float()` type conversion
+- `.upper()` string method
+- `if`, `elif`, and `else` statements
+- Arithmetic operations
+- Variables
+- Unit conversion
+- Conditional logic
+
+## Example
+
+```text
+Enter your height: 1.75
+(M)etre or (F)eet: M
+Enter your weight: 65
+(K)g or (L)bs: K
+
+BMI: 21.22448979591837
+Healthy weight
 
 

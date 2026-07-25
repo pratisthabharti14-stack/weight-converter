@@ -280,5 +280,41 @@ Enter your weight: 65
 
 BMI: 21.22448979591837
 Healthy weight
+   ```
+# Student Grade Calculator
+
+This is a simple **Student Grade Calculator** built using Python. The program takes marks for five subjects, calculates the total marks and average, and assigns a grade based on the student's average.
+
+The program also checks whether the student has scored below the minimum passing mark in any subject.
+
+## Features
+
+- Accepts marks for 5 subjects.
+- Calculates the total marks.
+- Calculates the average and rounds it to 2 decimal places.
+- Checks whether the student has scored less than 30 marks in any subject.
+- Assigns a grade based on the average.
+- Displays feedback for each grade.
+- Automatically marks the student as **Fail** if any subject score is below 30.
+
+## Grading System
+
+| Average | Grade | Feedback |
+|---------|-------|----------|
+| 90 and above | A | Excellent |
+| 80 – 89 | B | Good |
+| 70 – 79 | C | Satisfactory |
+| 60 – 69 | D | Can do better |
+| Below 60 | F | Improvement needed |
+
+### Passing Requirement
+
+A student must score at least **30 marks in every subject** to pass.
+
+If the student scores below 30 in even one subject, the final result will be:
+
+```text
+Fail: You scored less than 30 in a subject
+  ```
 
 

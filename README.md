@@ -316,5 +316,50 @@ If the student scores below 30 in even one subject, the final result will be:
 ```text
 Fail: You scored less than 30 in a subject
   ```
+# Python Quiz Game
 
+A simple multiple-choice quiz game built using Python. The program asks the user a series of general knowledge questions, displays multiple-choice options, and checks whether the user's answers are correct.
+
+## Features
+
+- Multiple-choice questions
+- Displays questions and answer options
+- Takes answers from the user using `input()`
+- Checks answers and displays whether they are correct or wrong
+- Uses lists to store questions, options, and answers
+- Uses `for` loops to display answer options
+
+## Concepts Used
+
+- Python Lists
+- Nested Lists
+- `input()` function
+- `print()` function
+- `if-else` statements
+- `for` loops
+- Indexing
+- User input and comparison
+
+## How It Works
+
+1. The program stores questions in a list.
+2. The options for each question are stored in a nested list.
+3. The program displays a question and its corresponding options.
+4. The user enters their answer.
+5. The program compares the user's answer with the correct answer.
+6. The program displays `Correct!` or `Wrong!`.
+
+## Example
+
+```text
+What is the capital of India?
+
+A) Mumbai
+B) New Delhi
+C) Kolkata
+D) Bengaluru
+
+Answer: B
+
+Correct!
 

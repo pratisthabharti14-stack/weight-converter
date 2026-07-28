@@ -38,3 +38,11 @@ for i in range(4):
     else:
         print("Invalid choice")
 print("Total monthly expenses:",total)
+budget = float(input("Enter your monthly budget: "))
+savings = budget - total
+print("Total monthly savings:",savings)
+if total > budget:
+   print("Your total monthly expense is more than your total monthly budget")
+   print("Your total monthly expense is greater than budget by:", total - budget)
+else:
+   print("You have ₹", savings,"left from your budget")

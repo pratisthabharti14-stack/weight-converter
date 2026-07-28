@@ -362,4 +362,53 @@ D) Bengaluru
 Answer: B
 
 Correct!
+ ```
+# Monthly Expense Tracker
+
+A simple Python program that helps users calculate their monthly expenses, track their total spending, compare expenses with a monthly budget, and calculate their remaining savings.
+
+## Features
+
+- Displays different expense categories:
+  - Accommodation
+  - Food
+  - Travel
+  - Extra
+- Allows the user to enter expenses manually.
+- Calculates accommodation expenses using:
+  - Monthly rent
+  - Water bill
+  - Electricity bill
+- Calculates the total monthly expenses.
+- Displays the updated total after every expense entry.
+- Allows the user to enter their monthly budget.
+- Calculates the amount left from the budget as savings.
+- Checks whether the total expenses exceed the monthly budget.
+- Displays how much the expenses exceed the budget when applicable.
+- Uses a `for` loop to allow multiple expense entries.
+
+## Concepts Used
+
+This project was created to practice:
+
+- `print()` statements
+- `input()` function
+- Variables
+- Lists
+- `for` loops
+- `if`, `elif`, and `else` statements
+- `float()` for numerical input
+- Arithmetic operations
+- Increment operators (`+=`)
+- Comparison operators
+- Basic budget calculations
+
+## How It Works
+
+The program first displays four expense categories. The user selects an expense category and enters the required amount.
+
+For accommodation, the program calculates:
+
+```text
+Monthly Rent + Water Bill + Electricity Bill
 

@@ -411,4 +411,52 @@ For accommodation, the program calculates:
 
 ```text
 Monthly Rent + Water Bill + Electricity Bill
+  ```
+# Expense Tracker
+
+A simple Python expense tracker that uses file handling to save and view expenses.
+
+## Features
+
+- Add new expenses
+- Save expenses to a text file
+- View all saved expenses
+- Uses append mode to add new expenses without deleting previous ones
+- Uses read mode to read saved expenses
+- Uses `with open()` for file handling
+- Menu-driven interface
+
+## File Handling Concepts Used
+
+- `open()` – Opens or creates a file
+- `"a"` – Opens a file in append mode
+- `"r"` – Opens a file in read mode
+- `write()` – Writes expenses to the file
+- `read()` – Reads the contents of the file
+- `with open()` – Automatically closes the file after use
+- `\n` – Adds a new line after each expense
+
+## How It Works
+
+The program displays three options:
+
+1. Add Expense
+2. View Expenses
+3. Exit
+
+When **Add Expense** is selected, the user enters an expense. The expense is saved in `expenses.txt` using append mode.
+
+When **View Expenses** is selected, the program reads `expenses.txt` and displays all saved expenses.
+
+## Example
+
+```text
+1. Add Expense
+2. View Expenses
+3. Exit
+
+Enter your choice: 1
+Enter your Expense: ₹500
+
+Expense added successfully
 

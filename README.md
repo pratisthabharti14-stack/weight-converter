@@ -459,4 +459,60 @@ Enter your choice: 1
 Enter your Expense: ₹500
 
 Expense added successfully
+  ```
+# Library Book Management
+
+A simple Python project that demonstrates Object-Oriented Programming (OOP) and File Handling by storing and managing borrowed book information.
+
+## Features
+
+- Creates a `Book` class with:
+  - Book name
+  - Borrow date
+  - Return date
+  - Lender name
+- Creates multiple `Book` objects.
+- Displays book information using `print()`.
+- Saves book information to a text file.
+- Uses write mode (`"w"`) to store the first book.
+- Uses append mode (`"a"`) to add another book.
+- Uses read mode (`"r"`) to read and display the saved information.
+
+## Concepts Used
+
+- Classes and Objects
+- `__init__()` constructor
+- Instance attributes
+- Object creation
+- File handling
+- `open()`
+- Write mode (`"w"`)
+- Append mode (`"a"`)
+- Read mode (`"r"`)
+- `file.write()`
+- `file.read()`
+- `with open()`
+- Newline character (`\n`)
+
+## How It Works
+
+1. A `Book` class is created with four attributes.
+2. Two book objects are created with their respective details.
+3. The first book is written to `borrowed_books.txt`.
+4. The second book is appended to the same file.
+5. The program reads the file and displays all the stored information.
+
+## File Used
+
+`borrowed_books.txt`
+
+The file stores information about the borrowed books, including the book name, borrow date, return date, and lender name.
+
+## Future Improvements
+
+- Allow users to enter book details using `input()`.
+- Add more books dynamically.
+- Search for a specific book.
+- Add functionality to return a book.
+- Create a complete library management system.
 

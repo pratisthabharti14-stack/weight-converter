@@ -508,11 +508,76 @@ A simple Python project that demonstrates Object-Oriented Programming (OOP) and 
 
 The file stores information about the borrowed books, including the book name, borrow date, return date, and lender name.
 
-## Future Improvements
+  ```
+Student Management System
 
-- Allow users to enter book details using `input()`.
-- Add more books dynamically.
-- Search for a specific book.
-- Add functionality to return a book.
-- Create a complete library management system.
+A simple Student Management System built using Python and Object-Oriented Programming (OOP) concepts.
+
+This project allows users to add students, update their marks, and view details of all students through a menu-driven interface.
+
+Features
+
+- Add a new student
+- Store student name, roll number, and marks
+- Update a student's marks using their roll number
+- Find students by roll number
+- Display details of all students
+- Menu-driven interface
+- Handles cases where no students are available or a student is not found
+
+Concepts Used
+
+This project helped me practice:
+
+- Classes and Objects
+- "__init__()" constructor
+- Instance attributes
+- Instance methods
+- Class variables
+- Class methods
+- "self" and "cls"
+- Lists
+- "for" loops
+- "if-elif-else" statements
+- User input
+- Searching through objects
+- Updating object attributes
+- Menu-driven programs
+
+How It Works
+
+The program uses a "Student" class to represent each student.
+
+Each student has:
+
+- Name
+- Roll Number
+- Marks
+
+All student objects are stored in a class variable called "all_students".
+
+The program provides the following options:
+
+1. Add Student – Adds a new student to the system.
+2. Update Marks – Finds a student using their roll number and updates their marks.
+3. Show All Students – Displays the details of every student stored in the system.
+4. Exit – Closes the program.
+
+Example
+
+======== Student Management System ========
+
+1. Add student
+2. Update marks
+3. Show all students
+4. Exit
+
+Enter your choice (1-4): 1
+
+Enter student's name: Rahul
+Enter student's roll number: 101
+Enter student's marks: 85
+
+Student: Rahul added successfully!
+
 

@@ -501,13 +501,7 @@ A simple Python project that demonstrates Object-Oriented Programming (OOP) and 
 3. The first book is written to `borrowed_books.txt`.
 4. The second book is appended to the same file.
 5. The program reads the file and displays all the stored information.
-
-## File Used
-
-`borrowed_books.txt`
-
-The file stores information about the borrowed books, including the book name, borrow date, return date, and lender name.
-   ```
+  ```
 🎓 Student Management System
 
 A Python-based Student Management System that helps manage student information, marks, and academic records. This project was created using Object-Oriented Programming (OOP) concepts in Python.

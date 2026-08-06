@@ -38,7 +38,7 @@ class Book:
         date = input("Enter the date on which the book is being borrowed: ")
 
         for book in cls.all_books:
-            if name == book.name:
+            if name == book.name.lower:
 
                 if book.available:
                     book.borrow_date = date
@@ -77,7 +77,7 @@ class Book:
 
         for book in selected_member.borrowed_books:
 
-            if book.name == name:
+            if book.name.lower == name:
                 book.return_date = date
                 book.available = True
 
@@ -96,7 +96,7 @@ class Book:
 
         for book in cls.all_books:
 
-            if name == book.name:
+            if name == book.name.lower:
 
                 book.show_details()
 

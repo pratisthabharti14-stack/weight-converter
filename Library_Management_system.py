@@ -65,6 +65,7 @@ class Book:
         for member in Member.all_members:
             if member_id == member.member_id:
                 selected_member = member
+                print(f"Welcome {member.name}")
                 break
 
         if selected_member is None:

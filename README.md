@@ -607,4 +607,39 @@ This project is part of my journey of learning Python and building projects to s
 ---
 
 ⭐ If you found this project interesting, feel free to explore the repository!
+   ```
+# 📚 Library Management System
+
+A Python-based **Library Management System** that allows users to manage books, members, borrowing, and returning operations. This project was built using **Object-Oriented Programming (OOP)** concepts in Python.
+
+## 🚀 Features
+
+- 📖 Add and manage books
+- 👤 Manage library members
+- 🔍 Search and view book details
+- 📚 Borrow books using member ID
+- 🔄 Return borrowed books
+- ✅ Track book availability
+- 📝 Track borrowed books for each member
+- 📋 View available books
+- 🖥️ Menu-driven interface
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Object-Oriented Programming (OOP)
+
+## 🧠 OOP Concepts Used
+
+This project demonstrates:
+
+- **Classes and Objects**
+- **Constructors (`__init__`)**
+- **Class Variables**
+- **Class Methods**
+- **Object Attributes**
+- **Encapsulation**
+- **Working with Lists of Objects**
+
+## 📂 Project Structure
 

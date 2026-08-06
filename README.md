@@ -508,105 +508,101 @@ A simple Python project that demonstrates Object-Oriented Programming (OOP) and 
 
 The file stores information about the borrowed books, including the book name, borrow date, return date, and lender name.
    ```
-
-   
 🎓 Student Management System
 
-A beginner-friendly Student Management System built with Python using Object-Oriented Programming (OOP) concepts.
+A Python-based Student Management System that helps manage student information, marks, and academic records. This project was created using Object-Oriented Programming (OOP) concepts in Python.
 
-This project is a menu-driven console application that allows users to manage student records by adding students, updating marks, and displaying student details.
+🚀 Features
 
-✨ Features
+- 👤 Add student records
+- 📝 Store student name, roll number, and marks
+- 📊 Update student marks
+- 🔍 View student details
+- 📋 Manage multiple students
+- 🖥️ Menu-driven interface
 
-- ➕ Add new students
-- 🔍 Find students using their roll number
-- 📝 Update student marks
-- 👥 Display all student records
-- 🚫 Handle students who are not found
-- 📋 Menu-driven console interface
+🛠️ Technologies Used
 
-🛠️ Concepts Practiced
+- Python 3
+- Object-Oriented Programming (OOP)
 
-This project helped me practice and understand:
+🧠 OOP Concepts Used
+
+This project demonstrates:
 
 - Classes and Objects
-- "__init__()" constructor
-- Instance attributes
-- Instance methods
+- Constructors ("__init__")
+- Instance variables
 - Class variables
-- Class methods
-- "self" and "cls"
-- Lists
-- Loops
-- Conditional statements
-- User input
-- Searching through objects
-- Updating object attributes
-- Menu-driven programs
+- Methods
+- Object management using lists
 
-🚀 How to Run
+📂 Project Structure
 
-1. Clone the repository
+Student-Management-System/
+│
+├── student_management.py
+└── README.md
 
-git clone <your-repository-link>
+⚙️ How to Run
 
-2. Navigate to the project folder
+1. Clone this repository:
 
-cd <project-folder>
+git clone https://github.com/your-username/Student-Management-System.git
 
-3. Run the program
+2. Navigate to the project folder:
 
-python student_management_system.py
+cd Student-Management-System
 
-📌 Menu Options
+3. Run the Python file:
 
-The program provides four options:
+python student_management.py
 
-Option| Action
-1| Add Student
-2| Update Marks
-3| Show All Students
-4| Exit
+🎮 Usage
 
-💻 Example
+The program allows users to manage student records through a simple menu system.
 
-======== Student Management System ========
+Example operations:
 
-1. Add student
-2. Update marks
-3. Show all students
-4. Exit
+====== Student Management System ======
 
-Enter your choice (1-4): 1
+1. Add Student
+2. View Student Details
+3. Update Marks
+4. Show All Students
+5. Exit
 
-Enter student's name: Rahul
-Enter student's roll number: 101
-Enter student's marks: 85
+Users can:
 
-Student: Rahul added successfully!
+- Enter student details
+- Store academic information
+- Update marks when required
+- Display student records
+
+📌 Example Student Record
+
+Student Details:
+
+Name: Alex
+Roll Number: 101
+Marks: 92
 
 🔮 Future Improvements
 
-I plan to improve this project by adding:
+- 💾 Add file handling to save student data permanently
+- 🔍 Add search functionality by roll number
+- 📊 Calculate grades automatically
+- 📈 Generate student performance reports
+- 🖥️ Build a GUI using Tkinter
+- 🌐 Convert into a web-based application
 
-- [ ] Delete a student
-- [ ] Search and display a specific student's details
-- [ ] Calculate average marks
-- [ ] Assign grades based on marks
-- [ ] Prevent duplicate roll numbers
-- [ ] Store student records in a file
-- [ ] Load saved student records when the program starts
-- [ ] Add a graphical user interface (GUI)
+👩‍💻 Author
 
-📚 What I Learned
+Pratistha Bharti
 
-Through this project, I gained more practical experience with Object-Oriented Programming in Python, especially with the use of class methods, instance methods, class variables, and objects.
+A Python project developed while learning Object-Oriented Programming and building real-world applications.
+   
 
-This project is part of my journey of learning Python and building projects to strengthen my programming fundamentals.
-
----
-
-⭐ If you found this project interesting, feel free to explore the repository!
    ```
 # 📚 Library Management System
 

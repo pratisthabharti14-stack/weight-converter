@@ -633,5 +633,25 @@ This project demonstrates:
 - **Encapsulation**
 - **Working with Lists of Objects**
 
-## 📂 Project Structure
+  ```
+GitHub Profile Scraper
+
+A simple Python project that uses "requests" and "BeautifulSoup" to scrape a GitHub user's profile page and extract their profile image URL.
+
+Features
+
+- Takes a GitHub username as input
+- Fetches the user's profile page
+- Parses the HTML with BeautifulSoup
+- Extracts and prints the profile image URL
+
+Requirements
+
+pip install requests beautifulsoup4
+
+Usage
+
+Run the Python script and enter a GitHub username when prompted.
+
+This project was built as a practice exercise for learning HTTP requests and web scraping with Python.
 

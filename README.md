@@ -654,4 +654,24 @@ Usage
 Run the Python script and enter a GitHub username when prompted.
 
 This project was built as a practice exercise for learning HTTP requests and web scraping with Python.
+ ```
+# Countdown Timer
+
+A simple Python countdown timer that takes the time in seconds as input and displays the remaining time in `MM:SS` format.
+
+## Features
+- Converts seconds into minutes and seconds
+- Updates every second
+- Displays "Time's up!" when finished
+
+## Requirements
+- Python 3.x
+- Built-in `time` module
+
+## How to Run
+Run the program and enter the desired time in seconds.
+
+Example:
+```text
+Enter the time in seconds: 60
 

@@ -502,7 +502,7 @@ A simple Python project that demonstrates Object-Oriented Programming (OOP) and 
 4. The second book is appended to the same file.
 5. The program reads the file and displays all the stored information.
 
-  ```
+  
 
 🎓 Student Management System
 

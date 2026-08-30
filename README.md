@@ -599,7 +599,7 @@ Pratistha Bharti
 A Python project developed while learning Object-Oriented Programming and building real-world applications.
    
 
-   ```
+   
 # 📚 Library Management System
 
 A Python-based **Library Management System** that allows users to manage books, members, borrowing, and returning operations. This project was built using **Object-Oriented Programming (OOP)** concepts in Python.
@@ -633,7 +633,7 @@ This project demonstrates:
 - **Encapsulation**
 - **Working with Lists of Objects**
 
-  ```
+  
 GitHub Profile Scraper
 
 A simple Python project that uses "requests" and "BeautifulSoup" to scrape a GitHub user's profile page and extract their profile image URL.

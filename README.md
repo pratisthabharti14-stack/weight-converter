@@ -654,7 +654,7 @@ Usage
 Run the Python script and enter a GitHub username when prompted.
 
 This project was built as a practice exercise for learning HTTP requests and web scraping with Python.
-   ```
+   
 
 # Countdown Timer
 
